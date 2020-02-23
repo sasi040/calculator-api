@@ -10,13 +10,29 @@
 	</parent>
 	<groupId>com.github.sasi040</groupId>
 	<artifactId>simple-calculator</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Simple calculator api which operate on integers.</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Sasidhar CHITTUMURU</name>
+			<email>sasi.isas@gmail.com</email>
+			<organization>Personal</organization>
+			<organizationUrl>http://www.sonatype.com</organizationUrl>
+		</developer>
+	</developers>
 
 	<dependencies>
 		<dependency>
